@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.changewindow.ControladorB">
+   <children>
+      <TextField fx:id="fieldNombre" layoutX="35.0" layoutY="105.0" />
+      <TextField fx:id="fieldApellido" layoutX="35.0" layoutY="188.0" />
+      <TextField fx:id="fieldDNI" layoutX="35.0" layoutY="262.0" />
+      <Label layoutX="34.0" layoutY="74.0" text="Nombre" />
+      <Label layoutX="34.0" layoutY="151.0" text="Apellido" />
+      <Label layoutX="35.0" layoutY="234.0" text="DNI" />
+   </children>
+</AnchorPane>
